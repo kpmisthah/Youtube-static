@@ -1,0 +1,158 @@
+/* Header */
+
+.header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* dont want to resize with page so set height instead of bottom */
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+.left-icon{
+    height: 1.3rem;
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    width: 62%;
+}
+.input-text>input{
+    
+    width: 36rem; 
+    border-radius: 25px;
+    height: 2.3rem;
+    margin-top: 1rem;
+    padding-left: 13px;
+    border: 1px solid gray;
+}
+.input-text{
+    position: relative;
+    width: 80%;
+    height: 72%;
+}
+.search{
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+.right{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 1rem;
+width: 30%;
+padding-right: 1rem;
+}
+.header-profile>img{
+    border-radius: 50%;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+/* sidebar */
+.sidebar{
+    position: fixed;
+    top: 5rem;
+    bottom: 0;
+    left: 0;
+    width: 6rem;
+}
+.sidebar-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-left: 17px;
+    cursor: pointer;
+}
+
+
+.sidebar-icon{
+    padding-left: 9px;
+}
+
+.sidebar-font{
+    font-size: x-small;
+    padding-left: 6px;
+}
+.sidebar-img:hover{
+    background-color: rgb(238, 241, 241);
+    border-radius: 4px;
+}
+
+/* button */
+.btn {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    position: fixed;
+    top: 5rem;
+    z-index: 1;
+    background-color: white;
+    right: 0;
+    padding-left: 11px;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 2rem;
+    cursor: pointer;
+}
+/* Body */
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 8rem;
+}
+
+.box>img{
+    width: 100%;
+    border-radius: 18px;
+}
+.box {
+    position: relative;
+    height: 72%;
+}
+
+.time {
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    right: 9px;
+    bottom: 2px;
+    border-radius: 10%;
+}
+.caption{
+    display: flex;
+}
+.profile>img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.subtitle{
+    font-size: medium;
+}
+.note{
+    display: flex;
+    width: 24rem;
+    justify-content: space-between;
+}
+.entity{
+font-size: larger;
+padding-right: 1rem;
+}
