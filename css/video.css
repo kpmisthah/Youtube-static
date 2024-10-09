@@ -117,6 +117,7 @@ padding-right: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     margin-top: 8rem;
+   cursor: pointer;
 }
 
 .box>img{
